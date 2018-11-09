@@ -1,0 +1,19 @@
+{
+    "variables": [
+        "Logged In", "Is Admin", "Is Premium"
+    ],
+    "ignoreRules": [
+        {
+            "Is Admin": true,
+            "Logged In": false
+        },
+        {
+            "Is Premium": true,
+            "Logged In": false
+        },
+        {
+            "Is Premium": true,
+            "Is Admin": true
+        }
+    ]
+}

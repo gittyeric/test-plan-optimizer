@@ -1,0 +1,5 @@
+Test Case #,Logged In,Is Admin,Is Premium,Test Passes
+1,No,No,No,
+2,Yes,Yes,No,
+3,Yes,No,Yes,
+4,Yes,No,No,

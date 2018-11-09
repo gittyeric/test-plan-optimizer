@@ -1,0 +1,31 @@
+{
+  "name": "test-plan-optimizer",
+  "version": "1.0.0",
+  "description": "Given boolean test conditions and constraints, creates minimally complete test plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gittyeric/test-plan-optimizer.git"
+  },
+  "keywords": [
+    "test",
+    "plan",
+    "coverage",
+    "boolean",
+    "constraint",
+    "Karnaugh",
+    "Map"
+  ],
+  "author": "Eric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gittyeric/test-plan-optimizer/issues"
+  },
+  "homepage": "https://github.com/gittyeric/test-plan-optimizer#readme",
+  "dependencies": {
+    "gray-code": "0.0.0"
+  }
+}
