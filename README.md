@@ -3,7 +3,7 @@ Given many test conditions and rules between them, generates a complete yet mini
 
 ## Motivating Example
 
-Consider needing to test a new web page you're building that changes behavior based on being logged in, being admin, or having a premium account, all yes or no conditions.  This script will then generate a 2D matrix of all possible combinations, _except_ those that meet the ignore rules you set.  Here we don't care about the test case of not being logged in and being admin, since this is impossible; you need to be logged in to be an admin.  Rules like these are useful for keeping the test plan to a minimum.  The current [config.json](config.json) shows the configuration to generate the test plan for this example using common-sense rules to bring 8 (2^3) raw test cases down to just [4 cases](sample-test-plan.csv) that are actually possible.
+Consider needing to test a new web page you're building that changes behavior based on being logged in, being admin, or having a premium account, all yes or no conditions.  This script will then generate a 2D matrix of all possible combinations, _except_ those that meet the ignore rules you set.  Here we don't care about the test case of not being logged in and being admin, since this is impossible; you need to be logged in to be an admin.  Rules like these are useful for keeping the test plan to a minimum.  The current [config.json](config.json) shows the configuration to generate the test plan for this example using common-sense rules to bring 8 (2^3) raw test cases down to just [4 cases](example-test-plan.csv) that are actually possible.
 
 ## Installation
 
